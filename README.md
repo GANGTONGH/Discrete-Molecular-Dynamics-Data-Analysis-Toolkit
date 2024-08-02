@@ -10,10 +10,14 @@ The utility programs in this repository are designed to analyze large simulation
   * Numpy (https://numpy.org)
 * Awk (https://github.com/onetrueawk/awk)
 
-<?
 ## Secondary structure contents
-This script takes the 
+This script takes the standard DSSP output from DMD and calculate the contents of the 4 secondary structure types: 
+* Helix
+* β-sheets
+* Turns
+* Random coils
 
+<?
 ## Fibrillar aggregate morphology analysis
 Briefly, we can differentiated protein aggregates using their respective morphologies, i.e. number of layers and β-sheet sizes. The two types of fibrillar aggregates are: 
 * Amyloid fibrils, which has a small number of β-sheet layers (typicall 2). Example
