@@ -5,7 +5,11 @@ DMD is a molecular dynamics algorithms with significantly improved computational
 The utility programs in this repository are designed to analyze large simulation datasets generated in DMD simulations. 
 
 ## Dependencies
-Python 3.7 or later is recommended.
+- Python, version 3.7 or later is recommended
+- -Matplotlib
+- Awk (https://github.com/onetrueawk/awk)
 
-<?## Fibrillar Aggregate Morphology Analysis
-This program is used for deciding the type of fibrillar aggregate formed by protein or peptide chains. Briefly, ?>
+<?
+## Fibrillar Aggregate Morphology Analysis
+This program is used for deciding the type of fibrillar aggregate formed by protein or peptide chains. Briefly, the type of protein fibrillar aggregate can be defined using its 
+?>
