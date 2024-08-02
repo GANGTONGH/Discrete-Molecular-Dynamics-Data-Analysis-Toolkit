@@ -18,10 +18,7 @@ Usage:
 awk ssmap.awk in_dssp.example > out_ssCont
 ```
 The columns from left to right contains the contents of the four secondary structure types, respectively:
-* Helix
-* β-sheet
-* Turn
-* Random coil
+* Helix, β-sheet, Turn, Random coil
 
 <?
 ## Fibrillar aggregate morphology analysis
