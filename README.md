@@ -7,5 +7,5 @@ The utility programs in this repository are designed to analyze large simulation
 ## Dependencies
 Python 3.7 or later is recommended.
 
-## Protein Aggregate Morphology Analysis
-This program is used for Briefly, the 
+<?## Fibrillar Aggregate Morphology Analysis
+This program is used for deciding the type of fibrillar aggregate formed by protein or peptide chains. Briefly, ?>
