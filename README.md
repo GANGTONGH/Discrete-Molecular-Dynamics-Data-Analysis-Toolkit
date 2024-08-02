@@ -11,11 +11,17 @@ The utility programs in this repository are designed to analyze large simulation
 * Awk (https://github.com/onetrueawk/awk)
 
 ## Secondary structure contents
-This script takes the standard DSSP output from DMD and calculate the contents of the 4 secondary structure types: 
+*ssCont.awk* can rapidly calculate the contents of the secondary structures for each DMD trajectory frame.
+This script takes the standard DSSP output from DMD as the input file.
+Usage:
+```bash
+awk ssmap.awk in_dssp.example > out_ssCont
+```
+The columns from left to right contains the contents of the four secondary structure types, respectively:
 * Helix
-* β-sheets
-* Turns
-* Random coils
+* β-sheet
+* Turn
+* Random coil
 
 <?
 ## Fibrillar aggregate morphology analysis
