@@ -11,7 +11,7 @@ The utility programs in this repository are designed to analyze large simulation
 * Awk (https://github.com/onetrueawk/awk)
 
 ## Secondary structure contents
-*ssCont.awk* can rapidly calculate the contents of the secondary structures for each DMD trajectory frame.
+*ssCont.awk* can rapidly calculate the contents of the secondary structures of the entire protein system for each DMD trajectory frame.
 This script takes the standard DSSP output from DMD as the input file.
 Usage:
 ```bash
