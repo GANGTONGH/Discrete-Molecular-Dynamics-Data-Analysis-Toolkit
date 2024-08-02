@@ -15,5 +15,8 @@ The utility programs in this repository are designed to analyze large simulation
 
 ## Fibrillar Aggregate Morphology Analysis
 This program is used for deciding the type of fibrillar aggregate formed by protein or peptide chains. 
-Briefly, the type of protein fibrillar aggregate can be defined using its number of layers and β-sheet sizes.
+Briefly, the type of protein fibrillar aggregate can be defined using its number of layers and β-sheet sizes. The two main categories are: 
+* Amyloid fibrils, which has a small number of β-sheet layers (typicall 2)
+* Nanocrystals, which has a large number of layers (typically 2+ )
+In a given molecular system, the more layers will lead to a decrease in the β-sheet size. Therefore, a nanocrystal conformation will have more layers but small-sized β-sheets, while a fibril will have fewer layers but large-sized β-sheets.
 ?>
