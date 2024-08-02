@@ -6,8 +6,8 @@ The utility programs in this repository are designed to analyze large simulation
 
 ## Dependencies
 * Python, version 3.7 or later is recommended. The needed libraries:
- * Matplotlib (https://matplotlib.org)
-** Numpy (https://numpy.org)
+  * Matplotlib (https://matplotlib.org)
+  * Numpy (https://numpy.org)
 * Awk (https://github.com/onetrueawk/awk)
 
 <?
