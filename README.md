@@ -24,6 +24,7 @@ If you need more detailed information of a specific peptide chain, *ssmap-fr.py*
 
 *(Under construction)*
 
+<?
 ## Fibrillar aggregate morphology analysis
 Briefly, we can differentiated protein aggregates using their respective morphologies, i.e. number of layers and β-sheet sizes. The two types of fibrillar aggregates are: 
 * Amyloid fibrils, which has a small number of β-sheet layers (typicall 2). Example
@@ -35,3 +36,4 @@ In a given molecular system, the total number of peptide chains is constant. The
 ### Coloring
 
 ## 2-dimensional PMF visualization
+?>
