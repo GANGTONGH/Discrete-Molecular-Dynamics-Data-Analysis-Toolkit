@@ -19,6 +19,7 @@ awk ssmap.awk in_dssp.example > out_ssCont
 ```
 The columns from left to right contains the contents of the four secondary structure types, respectively:
 * Helix, β-sheet, Turn, Random coil
+
 If you need more detailed information of a specific peptide chain, *ssmap-fr.py* will calculate the secondary structure propensity on each residue.
 
 *(In construction)*
