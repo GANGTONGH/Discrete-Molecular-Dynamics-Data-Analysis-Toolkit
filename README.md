@@ -22,9 +22,7 @@ The columns from left to right contains the contents of the four secondary struc
 
 If you need more detailed information of a specific peptide chain, *ssmap-fr.py* will calculate the secondary structure propensity on each residue.
 
-*(Under construction)*
 
-<?
 ## Fibrillar aggregate morphology analysis
 Briefly, we can differentiated protein aggregates using their respective morphologies, i.e. number of layers and β-sheet sizes. The two types of fibrillar aggregates are: 
 * Amyloid fibrils, which has a small number of β-sheet layers (typicall 2). Example
@@ -34,6 +32,8 @@ In a given molecular system, the total number of peptide chains is constant. The
 ## Protein structure visualization
 For structure visualization, [PyMOL](https://www.pymol.org/) is needed.
 ### Coloring
+This program colors protein structure and generates a heat map with custom parameter. Each residue is colored according to the value of the parameter from highest (red) to lowest (blue).
 
 ## 2-dimensional PMF visualization
-?>
+
+*(Under construction)*
