@@ -24,13 +24,14 @@ If you need more detailed information of a specific peptide chain, *ssmap-fr.py*
 
 *(Under construction)*
 
-<?
 ## Fibrillar aggregate morphology analysis
 Briefly, we can differentiated protein aggregates using their respective morphologies, i.e. number of layers and β-sheet sizes. The two types of fibrillar aggregates are: 
 * Amyloid fibrils, which has a small number of β-sheet layers (typicall 2). Example
 * Nanocrystals, which has a large number of layers (typically 2+ ). Example
 In a given molecular system, the total number of peptide chains is constant. Therefore, a nanocrystal conformation will have more layers but small-sized β-sheets, while a fibril will have fewer layers but large-sized β-sheets.
 
+## Protein structure visualization
+
+### Coloring
 
 ## 2-dimensional PMF visualization
-?>
