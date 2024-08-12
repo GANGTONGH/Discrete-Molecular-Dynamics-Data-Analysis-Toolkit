@@ -11,7 +11,7 @@ The utility programs in this repository are designed to analyze large simulation
 * Awk (https://github.com/onetrueawk/awk)
 
 ## Secondary structure contents
-*ssCont.awk* can rapidly calculate the contents of the secondary structures of the entire protein system for each DMD trajectory frame.
+*ssCont.awk* can rapidly calculate the contents of the average secondary structures of the entire protein system in a DMD trajectory.
 This script takes the standard DSSP output from DMD as the input file.
 Usage:
 ```bash
@@ -20,11 +20,12 @@ awk ssCont.awk in_dssp.example > out_ssCont
 The columns from left to right contains the contents of the secondary structure types, respectively:
 * ɑ-helix; isolated beta bridge; β-sheet; 3<sub>10</sub> helix; 𝛑-helix; β-turn; bend; random coil
 
-If you need more detailed information of a specific peptide chain, *ssResCont.py* will calculate the secondary structure propensity on each residue.
+If you need more detailed information of a specific peptide chain, *ssResCont.py* will calculate the secondary structure propensity of each residue.
+Usage:
 ```bash
 python ssResCont.py -i in_dssp.example -o out_ssecont.dat
 ```
-
+Similarly, the columns from left to right contains the contents of the secondary structure types as described above. Rows from top to bottom corresponds to the amino acid residues in the system as ordered in the starting PDB structure of the simulation.
 
 ## Fibrillar aggregate morphology analysis
 Briefly, we can differentiated protein aggregates using their respective morphologies, i.e. number of layers and β-sheet sizes. The two types of fibrillar aggregates are: 
