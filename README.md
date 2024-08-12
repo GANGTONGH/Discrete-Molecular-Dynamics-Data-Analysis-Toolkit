@@ -34,6 +34,8 @@ Briefly, we can differentiated protein aggregates using their respective morphol
 
 In a given molecular system, the total number of peptide chains is constant. Therefore, a nanocrystal conformation will have more layers but small-sized β-sheets, while a fibril will have fewer layers but large-sized β-sheets.
 
+*bsh-layers-BC-cutoff.py* can calculate the 
+
 ## Protein structure visualization
 For structure visualization, [PyMOL](https://www.pymol.org/) is needed.
 ### Coloring
