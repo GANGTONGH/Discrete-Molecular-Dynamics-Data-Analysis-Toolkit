@@ -15,7 +15,7 @@ The utility programs in this repository are designed to analyze large simulation
 This script takes the standard DSSP output from DMD as the input file.
 Usage:
 ```bash
-awk ssCont.awk in_dssp.example > out_ssCont
+awk ssCont.awk in_dssp.example > out_sscont.dat
 ```
 The columns from left to right contains the contents of the secondary structure types, respectively:
 * ɑ-helix; isolated beta bridge; β-sheet; 3<sub>10</sub> helix; 𝛑-helix; β-turn; bend; random coil
@@ -23,7 +23,7 @@ The columns from left to right contains the contents of the secondary structure 
 If you need more detailed information of a specific peptide chain, *ssResCont.py* will calculate the secondary structure propensity of each residue.
 Usage:
 ```bash
-python ssResCont.py -i in_dssp.example -o out_ssecont.dat
+python ssResCont.py -i in_dssp.example -o out_ssrescont.dat
 ```
 Similarly, the columns from left to right contains the contents of the secondary structure types as described above. Rows from top to bottom corresponds to the amino acid residues in the system as ordered in the starting PDB structure of the simulation.
 
