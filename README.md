@@ -22,7 +22,7 @@ The columns from left to right contains the contents of the secondary structure 
 
 If you need more detailed information of a specific peptide chain, *ssResCont.py* will calculate the secondary structure propensity of each residue.
 Usage:
-```bash
+```python
 python ssResCont.py -i in_dssp.example -o out_ssrescont.dat
 ```
 Similarly, the columns from left to right contains the contents of the secondary structure types as described above. Rows from top to bottom corresponds to the amino acid residues in the system as ordered in the starting PDB structure of the simulation.
