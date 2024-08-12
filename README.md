@@ -26,7 +26,9 @@ Usage:
 python ssResCont.py -i in_dssp.example -o out_ssrescont.dat
 ```
 Similarly, the columns from left to right contains the contents of the secondary structure types as described above. Rows from top to bottom corresponds to the amino acid residues in the system as ordered in the starting PDB structure of the simulation.
-<!
+
+
+```
 
 ## Fibrillar aggregate morphology analysis
 Briefly, we can differentiated protein aggregates using their respective morphologies, i.e. number of layers and β-sheet sizes. The two types of fibrillar aggregates are: 
@@ -43,6 +45,6 @@ For structure visualization, [PyMOL](https://www.pymol.org/) is needed.
 This program colors protein structure and generates a heat map with custom parameter. Each residue is colored according to the value of the parameter from highest (red) to lowest (blue).
 
 ## 2-dimensional PMF visualization
->
+```
 
 *(Under construction)*
