@@ -47,7 +47,7 @@ The following tools generate an easy-to-read heat map with custom parameter, whe
 In this example, we will map the affinity with a small molecule onto the BRICHOS protein structure. 
 The following inputs are required:
 * *brichos_template.pdb*: the protein structure to be colored
-* *contact_prob_per_residue.dat*: the corredponding value of the parameter on each residue, arranged into a single column
+* *contact_prob_per_residue.dat*: the corredponding value of the parameter on each residue, arranged into a single column.
 Usage:
 ```bash
 ./color.sh brichos_template.pdb contact_prob_per_residue.dat graph.pdb
