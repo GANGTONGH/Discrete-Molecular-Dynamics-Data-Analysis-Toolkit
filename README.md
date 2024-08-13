@@ -41,10 +41,10 @@ In a given molecular system, the total number of peptide chains is constant. The
 ## Protein structure visualization
 For structure visualization, [PyMOL](https://www.pymol.org/) is required.
 ### Coloring
-The following tools generates an intuitive, easy-to-read heat map with custom parameter, where the value of the parameter is mapped onto the protein surface. Each residue is colored according to the parameter value from maximum (red) to minimum (blue): 
+The following tools generate an easy-to-read heat map with custom parameter, where the value of the parameter is mapped onto the protein surface. Each residue is colored according to the parameter value from maximum (red) to minimum (blue): 
 <img src="https://github.com/GANGTONGH/Discrete-Molecular-Dynamics-Data-Analysis-Toolkit/blob/224960143076c3c6232b4c74bf5c56838489fc69/Protein%20structure%20coloring/colorbar.png" width="200">.
 
-In this example, we will map the contact probabilities with a small molecule onto the surface of Bri2 BRICHOS protein. 
+In this example, we will map the affinity with a small molecule onto the BRICHOS protein structure. 
 The following inputs are required:
 * *brichos_template.pdb*: the protein structure to be colored
 * *contact_prob_per_residue.dat*: the corredponding value of the parameter on each residue, arranged into a single column
@@ -57,7 +57,7 @@ Then, load *graph.pdb* into PyMOL. To show the color, use the following command:
 ```python
 spectrum b, rainbow, minimum=0, maximum=1
 ```
-The following structure will be shown. The parts of Bri2 BRICHOS with a higher contact propensity with the small molecule is closer to red (warmer), the parts with lower contact propensity is closer to blue (colder).
+The following structure will be shown. The parts of Bri2 BRICHOS with a higher affinity is closer to red (warmer), the parts with lower affinity is closer to blue (colder).
 
 <img src="https://github.com/GANGTONGH/Discrete-Molecular-Dynamics-Data-Analysis-Toolkit/blob/58b7ffac3cca0d53da34547cb60dafa194e09251/Protein%20structure%20coloring/colored_protein.png" width="300">
 
