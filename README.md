@@ -55,7 +55,7 @@ Usage:
 ./color.sh brichos_template.pdb contact_prob_per_residue.dat graph.pdb
 ```
 This step generates the colored structure, *graph.pdb*.
-Then, load *graph.pdb* into PyMOL. To show the color, use the following command:
+Then, load *graph.pdb* into PyMOL. To show the color, run the following command in the PyMOL console:
 ```python
 spectrum b, rainbow, minimum=0, maximum=1
 ```
