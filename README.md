@@ -39,6 +39,13 @@ In a given molecular system, the total number of peptide chains is constant. The
 *bsh-layers-BC-cutoff.py* can calculate the 
 --->
 
+
+<!--
+## Data visualization
+
+## 2-dimensional PMF visualization
+--->
+
 ## Protein structure visualization
 For structure visualization, [PyMOL](https://www.pymol.org/) is required.
 ### Coloring
@@ -63,12 +70,5 @@ The parts of Bri2 BRICHOS with a higher affinity is closer to red (warmer), the 
 
 <img src="https://github.com/GANGTONGH/Discrete-Molecular-Dynamics-Data-Analysis-Toolkit/blob/58b7ffac3cca0d53da34547cb60dafa194e09251/Protein%20structure%20coloring/colored_protein.png" width="250">
 
-
-
-<!--
-## Data visualization
-
-## 2-dimensional PMF visualization
---->
 
 ## *(Under construction)*
