@@ -57,7 +57,7 @@ Usage:
 This step generates the colored structure, *graph.pdb*.
 Then, load *graph.pdb* into PyMOL. To show the color, run the following command in the PyMOL console:
 ```python
-spectrum b, rainbow, minimum=0, maximum=1
+spectrum b, rainbow, minimum = 0, maximum = 1
 ```
 The parts of Bri2 BRICHOS with a higher affinity is closer to red (warmer), the parts with lower affinity is closer to blue (colder).
 
