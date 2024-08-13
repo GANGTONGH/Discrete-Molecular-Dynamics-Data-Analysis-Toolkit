@@ -21,6 +21,7 @@ The columns from left to right contains the contents of the secondary structure 
 * ɑ-helix; isolated beta bridge; β-sheet; 3<sub>10</sub> helix; 𝛑-helix; β-turn; bend; random coil
 
 If you need more detailed information of a specific peptide chain, *ssResCont.py* will calculate the secondary structure propensity of each residue.
+
 Usage:
 ```python
 python ssResCont.py -i in_dssp.example -o out_ssrescont.dat
@@ -48,6 +49,7 @@ In this example, we will map the affinity with a small molecule onto the BRICHOS
 The following inputs are required:
 * *brichos_template.pdb*: the protein structure to be colored
 * *contact_prob_per_residue.dat*: the corredponding value of the parameter on each residue, arranged into a single column.
+
 Usage:
 ```bash
 ./color.sh brichos_template.pdb contact_prob_per_residue.dat graph.pdb
