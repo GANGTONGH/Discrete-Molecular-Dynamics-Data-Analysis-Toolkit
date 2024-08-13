@@ -18,7 +18,7 @@ Usage:
 awk -f ssCont.awk in_dssp.example > out_sscont.dat
 ```
 The columns from left to right contains the contents of the secondary structure types, respectively:
-* ɑ-helix; * isolated beta bridge; β-sheet; 3<sub>10</sub> helix; 𝛑-helix; β-turn; bend; random coil
+* ɑ-helix; isolated beta bridge; β-sheet; 3<sub>10</sub> helix; 𝛑-helix; β-turn; bend; random coil
 
 If you need more detailed information of a specific peptide chain, *ssResCont.py* will calculate the secondary structure propensity of each residue.
 
