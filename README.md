@@ -22,7 +22,7 @@ The columns from left to right contains the contents of the secondary structure 
 * Isolated β-bridge
 * β-sheet
 * 3<sub>10</sub> helix
-* 𝛑-helix
+* π-helix
 * β-turn
 * Bend
 * Random coil
