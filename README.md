@@ -42,6 +42,8 @@ For structure visualization, [PyMOL](https://www.pymol.org/) is needed.
 ### Coloring
 This program colors protein structure and generates a heat map with custom parameter. Each residue is colored according to the value of the parameter from highest (red) to lowest (blue).
 
+## Data visualization
+
 ## 2-dimensional PMF visualization
 --->
 
