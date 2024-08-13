@@ -75,7 +75,9 @@ spectrum b, rainbow, minimum = 0, maximum = 1
 ```
 The parts of Bri2 BRICHOS with a higher affinity is closer to red (warmer), the parts with lower affinity is closer to blue (colder).
 
-<img src="https://github.com/GANGTONGH/Discrete-Molecular-Dynamics-Data-Analysis-Toolkit/blob/58b7ffac3cca0d53da34547cb60dafa194e09251/Protein%20structure%20coloring/colored_protein.png" width="250">
+<div align="center">
+ <img src="https://github.com/GANGTONGH/Discrete-Molecular-Dynamics-Data-Analysis-Toolkit/blob/58b7ffac3cca0d53da34547cb60dafa194e09251/Protein%20structure%20coloring/colored_protein.png" width="250">
+</div>
 
 
 ## *(Under construction)*
