@@ -36,12 +36,30 @@ Briefly, we can differentiated protein aggregates using their respective morphol
 In a given molecular system, the total number of peptide chains is constant. Therefore, a nanocrystal conformation will have more layers but small-sized β-sheets, while a fibril will have fewer layers but large-sized β-sheets.
 
 *bsh-layers-BC-cutoff.py* can calculate the 
+--->
 
 ## Protein structure visualization
-For structure visualization, [PyMOL](https://www.pymol.org/) is needed.
+For structure visualization, [PyMOL](https://www.pymol.org/) is required.
 ### Coloring
-This program colors protein structure and generates a heat map with custom parameter. Each residue is colored according to the value of the parameter from highest (red) to lowest (blue).
+The following tools generates an intuitive, easy-to-read heat map with custom parameter, where the value of the parameter is mapped onto the protein surface. Each residue is colored according to the parameter value from highest (red) to lowest (blue).
+In this example, we will map the contact probabilities with Aβ42 onto the surface of Bri2 BRICHOS protein. 
+The following inputs are required:
+* *brichos_template.pdb*: the protein structure to be colored
+* *contact_prob_per_residue.dat*: the corredponding value of the parameter on each residue, arranged into a single column
+Usage:
+```bash
+./color.sh brichos_template.pdb contact_prob_per_residue.dat graph.pdb
+```
+This step generates the colored structure, *graph.pdb*.
+Then, load *graph.pdb* into PyMOL. To show the color, use the following command:
+```python
+spectrum b, rainbow, minimum=0, maximum=1
+```
+The following structure will be shown. The parts of Bri2 BRICHOS with a higher contact propensity with Aβ42 is closer to red (warmer), the parts with lower contact propensity is closer to blue (colder).
+[[]]
 
+
+<!--
 ## Data visualization
 
 ## 2-dimensional PMF visualization
