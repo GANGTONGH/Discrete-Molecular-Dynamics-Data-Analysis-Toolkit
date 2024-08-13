@@ -65,4 +65,4 @@ The following structure will be shown. The parts of Bri2 BRICHOS with a higher c
 ## 2-dimensional PMF visualization
 --->
 
-*(Under construction)*
+## *(Under construction)*
