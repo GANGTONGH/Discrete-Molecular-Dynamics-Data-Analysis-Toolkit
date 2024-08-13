@@ -15,7 +15,7 @@ The utility programs in this repository are designed to analyze large simulation
 This script takes the standard DSSP output from DMD as the input file.
 Usage:
 ```bash
-awk ssCont.awk in_dssp.example > out_sscont.dat
+awk -f ssCont.awk in_dssp.example > out_sscont.dat
 ```
 The columns from left to right contains the contents of the secondary structure types, respectively:
 * ɑ-helix; isolated beta bridge; β-sheet; 3<sub>10</sub> helix; 𝛑-helix; β-turn; bend; random coil
