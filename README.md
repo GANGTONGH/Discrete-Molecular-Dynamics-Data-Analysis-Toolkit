@@ -41,7 +41,10 @@ In a given molecular system, the total number of peptide chains is constant. The
 ## Protein structure visualization
 For structure visualization, [PyMOL](https://www.pymol.org/) is required.
 ### Coloring
-The following tools generates an intuitive, easy-to-read heat map with custom parameter, where the value of the parameter is mapped onto the protein surface. Each residue is colored according to the parameter value from highest (red) to lowest (blue).
+The following tools generates an intuitive, easy-to-read heat map with custom parameter, where the value of the parameter is mapped onto the protein surface. Each residue is colored according to the parameter value from maximum (red) to minimum (blue): 
+
+<img src="https://github.com/GANGTONGH/Discrete-Molecular-Dynamics-Data-Analysis-Toolkit/blob/58b7ffac3cca0d53da34547cb60dafa194e09251/Protein%20structure%20coloring/colored_protein.png" width="50">
+
 In this example, we will map the contact probabilities with a small molecule onto the surface of Bri2 BRICHOS protein. 
 The following inputs are required:
 * *brichos_template.pdb*: the protein structure to be colored
