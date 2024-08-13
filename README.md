@@ -56,8 +56,7 @@ Then, load *graph.pdb* into PyMOL. To show the color, use the following command:
 spectrum b, rainbow, minimum=0, maximum=1
 ```
 The following structure will be shown. The parts of Bri2 BRICHOS with a higher contact propensity with the small molecule is closer to red (warmer), the parts with lower contact propensity is closer to blue (colder).
-![plot](https://github.com/GANGTONGH/Discrete-Molecular-Dynamics-Data-Analysis-Toolkit/blob/58b7ffac3cca0d53da34547cb60dafa194e09251/Protein%20structure%20coloring/colored_protein.png = 90x90)
-<img src="https://github.com/GANGTONGH/Discrete-Molecular-Dynamics-Data-Analysis-Toolkit/blob/58b7ffac3cca0d53da34547cb60dafa194e09251/Protein%20structure%20coloring/colored_protein.png" width="48">
+<img src="https://github.com/GANGTONGH/Discrete-Molecular-Dynamics-Data-Analysis-Toolkit/blob/58b7ffac3cca0d53da34547cb60dafa194e09251/Protein%20structure%20coloring/colored_protein.png" width="200">
 
 
 
