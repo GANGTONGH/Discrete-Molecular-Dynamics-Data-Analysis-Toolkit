@@ -35,16 +35,16 @@ python ssResCont.py -i in_dssp.example -o out_ssrescont.dat
 ```
 Similarly, the columns from left to right contains the contents of the secondary structure types as described above. Rows from top to bottom corresponds to the amino acid residues in the system as ordered in the starting PDB structure of the simulation.
 
-<!---
 ## Fibrillar aggregate morphology analysis
-Briefly, we can differentiated protein aggregates using their respective morphologies, i.e. number of layers and β-sheet sizes. The two types of fibrillar aggregates are: 
+We can differentiated protein aggregates according to their respective morphologies. The parameters that characterize the morphology are: (1) number of layers and (2) β-sheet sizes. 
+The two types of fibrillar aggregates are: 
 * Amyloid fibrils, which has a small number of β-sheet layers (typically 2). [Example](https://www.science.org/doi/10.1126/science.aao2825#F1)
 * Nanocrystals, which has a large number of layers (typically more than 2). [Example](https://www.science.org/doi/10.1126/science.aal5005#F2)
 
 In a given molecular system, the total number of peptide chains is constant. Therefore, a nanocrystal conformation will have more layers but small-sized β-sheets, while a fibril will have fewer layers but large-sized β-sheets.
 Advantage: (1) only considered the clusters with β-sheet contents, (2) give option to exclude small aggregates -> exclude the noise from amorphous aggregates.
 *bsh-layers-BC-cutoff.py* can calculate the 
---->
+
 
 
 <!--
