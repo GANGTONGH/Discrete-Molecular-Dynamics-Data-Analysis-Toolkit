@@ -59,7 +59,7 @@ The example output:
 characterizes a structure resembling an amyloid:
 <div align="center">
 <img src="https://github.com/GANGTONGH/Discrete-Molecular-Dynamics-Data-Analysis-Toolkit/blob/13816a0681ddec190048581871fe5648050d317d/Fibrillar%20structure%20analysis/example.png" width="200">
-</div>div
+</div>
 
 <!--
 ## Data visualization
