@@ -3,7 +3,6 @@
 # Check: n_chains in get_dssp, in final print
 
 import numpy as np
-import sys
 import os
 import re
 import argparse
