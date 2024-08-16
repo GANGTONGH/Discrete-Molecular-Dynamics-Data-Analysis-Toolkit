@@ -42,7 +42,7 @@ Briefly, we can differentiated protein aggregates using their respective morphol
 * Nanocrystals, which has a large number of layers (typically more than 2). [Example](https://www.science.org/doi/10.1126/science.aal5005#F2)
 
 In a given molecular system, the total number of peptide chains is constant. Therefore, a nanocrystal conformation will have more layers but small-sized β-sheets, while a fibril will have fewer layers but large-sized β-sheets.
-
+Advantage: (1) only considered the clusters with β-sheet contents, (2) give option to exclude small aggregates -> exclude the noise from amorphous aggregates.
 *bsh-layers-BC-cutoff.py* can calculate the 
 --->
 
