@@ -22,6 +22,11 @@ parser.add_argument('-bshClust', '--in_bshClust', type=str, help="Input path of 
 parser.add_argument('-o', '--out_betasheet_layers', type=str, help="Output path of beta-sheet number and size")
 parser.add_argument('-c', '--cutoff', type=int, help="Cutoff of smallest cluster size to be considered in the analysis. 0 for NO cutoff and considering all clusters")
 parser.add_argument('-v', '--valid_chains', type=str, help="Index of chains to be counted in cluster, in standard Python list format as a string. NO WHITESPACE. Example: \"[1,2,3,4]\" ")
+
+if len(sys.argv)==1:
+    parser.print_help(sys.stderr)
+    sys.exit(1)
+
 args = parser.parse_args()
 
 in_filename_1 = args.in_DSSP
