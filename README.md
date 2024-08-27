@@ -95,5 +95,9 @@ The parts of Bri2 BRICHOS with a higher affinity is closer to red (warmer), the 
  <img src="https://github.com/GANGTONGH/Discrete-Molecular-Dynamics-Data-Analysis-Toolkit/blob/58b7ffac3cca0d53da34547cb60dafa194e09251/Protein%20structure%20coloring/colored_protein.png" width="250">
 </div>
 
+<!---
+## Extract representative snapshots from replica-exchange simulations
+--->
+
 
 ## *(Under construction)*
