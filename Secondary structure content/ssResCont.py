@@ -19,6 +19,11 @@ Rows:\n\
         formatter_class = RawTextHelpFormatter)
 parser.add_argument('-i', '--inDSSP', type=str, help="Input path of DSSP file")
 parser.add_argument('-o', '--outSSECont', type=str, help="Output path of SSE contents")
+
+if len(sys.argv)==1:
+    parser.print_help(sys.stderr)
+    sys.exit(1)
+
 args = parser.parse_args()
 
 in_dssp_filename = args.inDSSP
