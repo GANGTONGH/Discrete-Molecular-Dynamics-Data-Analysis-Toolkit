@@ -5,6 +5,7 @@
 import numpy as np
 import os
 import re
+import sys
 import argparse
 from argparse import RawTextHelpFormatter
 
@@ -33,9 +34,8 @@ out_filename = args.outSSECont
 
 # Get SSE seq from dssp.dat
 def get_dssp(s):
-    # if s[0] != '#': sse = re.split('!| +',s.strip("\n"))[1:]
     if s[0] != '#': 
-        sse = re.sub(r'[0-9]|!|\n| +', '', s)
+        sse = re.sub(r'[0-9]|!|\n| +', '', s.split()[1])
         return sse
     else:
         return ''
@@ -66,4 +66,3 @@ with open(in_dssp_filename, 'r') as in_dssp_file, open(out_filename, 'w+') as ou
     
     result = np.mean(sse_cont,axis = 0, dtype=np.float32).tolist()
     print_2d(result, out_file)
-
