@@ -46,7 +46,7 @@ In a given  system, the total number of peptide chains is constant. Therefore, a
 The advantage of this program are: (1) only considered the clusters with β-sheet contents, (2) give option to exclude small aggregates. These two features effectively eliminate the noise from disordered, non-fibrillar aggregates.
 Usage:
 ```python
-python bsh-layers-cutoff.py -dssp dssp.exmaple -bshClust bshClust.example -o bsh-layers-cutoff4.dat -c 4 -v "[1,4,7,10,13,16,19,22,25,28,31,34,37,40,43,46,49,52,55,58]"
+python bsh-layers-cutoff.py -dssp dssp.example -bshClust bshClust.example -o bsh-layers-cutoff4.dat -c 4 -v "[1,4,7,10,13,16,19,22,25,28,31,34,37,40,43,46,49,52,55,58]"
 ```
 The first column is the number of β-sheet layers, and the second column is the average size of the layers.
 The example output:
