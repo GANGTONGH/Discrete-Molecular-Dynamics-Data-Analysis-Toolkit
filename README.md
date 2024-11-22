@@ -5,7 +5,7 @@ DMD is a molecular dynamics algorithm with significantly improved computational 
 The utility programs in this repository are designed to analyze large simulation datasets generated in DMD simulations. Notably, this toolkit provides easy-to-use tools for a comprehensive investigation of protein aggregate properties.
 
 ## Dependencies
-* Python, version 3.7 or later is recommended. The needed libraries:
+* Python (version 3.7 or later) is recommended. The needed libraries:
   * Matplotlib (https://matplotlib.org)
   * Numpy (https://numpy.org)
 * Awk (https://github.com/onetrueawk/awk)
