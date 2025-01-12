@@ -82,8 +82,10 @@ The following inputs are required:
 
 Usage:
 ```bash
-./color.sh brichos_template.pdb contact_prob_per_residue.dat graph.pdb
+./color.sh brichos_template.pdb contact_prob_per_residue.dat graph.pdb *residue_index_offset
 ```
+*residue_index_offset: the index shift when the residue index of the PDB does not start with 1. For example, if the starting index is 10, then residue_index_offset should be set as 9.
+
 This step generates the colored structure, *graph.pdb*.
 Then, load *graph.pdb* into PyMOL. To show the color, run the following command in the PyMOL console:
 ```python
