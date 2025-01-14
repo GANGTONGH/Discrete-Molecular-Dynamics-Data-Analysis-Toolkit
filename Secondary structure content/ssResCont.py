@@ -1,6 +1,4 @@
 # -*- coding: utf-8 -*-""
-# Count SSEs for dssp.dat of 5 segments
-# Check: n_chains in get_dssp, in final print
 
 import numpy as np
 import os
