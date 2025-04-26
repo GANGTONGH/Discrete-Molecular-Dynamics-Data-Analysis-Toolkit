@@ -66,7 +66,7 @@ characterizes a structure resembling an amyloid:
 P-value is calculated using the following formulas:
 $`
 P_{chain} = N_{in\ register}/N_{total}
-`$
+`$, where N<sub>in\ register</sub> is the number of amino acid residues forming parallel in-register β-sheets,and N<sub>total</sub> is the total numbers of residues.
 
 <!--
 ## Data visualization
