@@ -62,11 +62,18 @@ characterizes a structure resembling an amyloid:
 </div>
 
 ## P-value analysis
-*P*-value (**P**arallel in-register β-sheet) is a generalization of *Q* (the fraction of native contacts), the order parameter in protein folding. P-value can be used to assess the amyloid fibril forming propensity of a peptide chain or individual amino acid residues (*P<sub>chain</sub>* and *P<sub>res</sub>*, respectively).
+*P*-value (**P**arallel in-register β-sheet) is a generalization of *Q* (the fraction of native contacts), the order parameter in protein folding. P-value can be used to assess the amyloid fibril forming propensity of a peptide chain or individual amino acid residues (*P<sub>chain</sub>* and *P<sub>residue</sub>*, respectively).
 P-value is calculated using the following formulas:
+
 $`
 P_{chain} = N_{in\ register}/N_{total}
-`$, where N<sub>in\ register</sub> is the number of amino acid residues forming parallel in-register β-sheets,and N<sub>total</sub> is the total numbers of residues.
+`$, where N<sub>in\ register</sub> is the number of amino acid residues forming parallel in-register contacts,and N<sub>total</sub> is the total numbers of residues.
+
+and
+
+$`
+P_{residue} = C_{in\ register}/C_{total}
+`$, where C<sub>in\ register</sub> is the number of in-register contacts formed by the amino acid, and C<sub>total</sub> is the total number of contacts formed by this amino acid residue.
 
 <!--
 ## Data visualization
