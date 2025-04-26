@@ -68,13 +68,13 @@ P-value is calculated using the following formulas:
 
 $`
 P_{chain} = N_{in\ register}/N_{total}
-`$, where N<sub>in register</sub> is the number of amino acid residues forming parallel in-register contacts,and N<sub>total</sub> is the total numbers of residues.
+`$, where *N<sub>in register</sub>* is the number of amino acid residues forming parallel in-register contacts,and *N<sub>total</sub>* is the total numbers of residues.
 
 and
 
 $`
 P_{residue} = C_{in\ register}/C_{total}
-`$, where C<sub>in register</sub> is the number of in-register contacts formed by the amino acid, and C<sub>total</sub> is the total number of contacts formed by this amino acid residue.
+`$, where *C<sub>in register</sub>* is the number of in-register contacts formed by the amino acid, and *C<sub>total</sub>* is the total number of contacts formed by this amino acid residue.
 
 <!--
 ## Data visualization
