@@ -62,7 +62,7 @@ characterizes a structure resembling an amyloid:
 </div>
 
 ## P-value analysis
-P-value (*P*arallel in-register β-sheet) is an extension of the Q value 
+P-value (**P**arallel in-register β-sheet) is a generalization of Q-value (the fraction of native contacts), the order parameter in protein folding. 
 
 <!--
 ## Data visualization
