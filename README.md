@@ -64,6 +64,11 @@ characterizes a structure resembling an amyloid:
 ## P-value analysis
 *P*-value (**P**arallel in-register contacts), also called *Q*-value, is a generalization of *Q* (the fraction of native contacts), the order parameter in protein folding. P-value can be used to assess the amyloid fibril forming propensity of a peptide chain or individual amino acid residues (*P<sub>chain</sub>* and *P<sub>residue</sub>*, respectively).
 Parallel in-register contacts are the main characteristic of amyloid fibril structure. 
+
+<div align="center">
+ <img src="https://github.com/GANGTONGH/Discrete-Molecular-Dynamics-Data-Analysis-Toolkit/blob/main/P-value-analysis/Q-value.png" width="600">
+</div>
+
 P-value is calculated using the following formulas:
 
 $`
