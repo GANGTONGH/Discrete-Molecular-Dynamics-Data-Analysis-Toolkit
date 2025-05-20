@@ -61,8 +61,8 @@ characterizes a structure resembling an amyloid:
 <img src="https://github.com/GANGTONGH/Discrete-Molecular-Dynamics-Data-Analysis-Toolkit/blob/13816a0681ddec190048581871fe5648050d317d/Fibrillar%20structure%20analysis/example.png" width="200">
 </div>
 
-## P-value analysis
-*P*-value (**P**arallel in-register contacts), also called *Q*-value, is a generalization of *Q* (the fraction of native contacts), the order parameter in protein folding. P-value can be used to assess the amyloid fibril forming propensity of a peptide chain or individual amino acid residues (*P<sub>chain</sub>* and *P<sub>residue</sub>*, respectively).
+## Q-value analysis
+*Q*-value is a generalization of *Q* (the fraction of native contacts), an order parameter in protein folding. Q-value can be used to assess the amyloid fibril forming propensity of a peptide chain or individual amino acid residues (*Q<sub>chain</sub>* and *Q<sub>residue</sub>*, respectively).
 
 <div align="center">
  <img src="https://github.com/GANGTONGH/Discrete-Molecular-Dynamics-Data-Analysis-Toolkit/blob/main/P-value-analysis/Q-value.png" width="600">
@@ -70,16 +70,16 @@ characterizes a structure resembling an amyloid:
 
 *Figure adapted from: https://doi.org/10.1021/acs.jcim.3c00898*
 
-P-value is calculated using the following formulas:
+Q-value is calculated using the following formulas:
 
 $`
-P_{chain} = N_{in\ register}/N_{total}
+Q_{chain} = N_{in\ register}/N_{total}
 `$, where *N<sub>in register</sub>* is the number of amino acid residues forming parallel in-register contacts,and *N<sub>total</sub>* is the total numbers of residues.
 
 and
 
 $`
-P_{residue} = C_{in\ register}/C_{total}
+Q_{residue} = C_{in\ register}/C_{total}
 `$, where *C<sub>in register</sub>* is the number of in-register contacts formed by the amino acid, and *C<sub>total</sub>* is the total number of contacts formed by this amino acid residue.
 
 <!--
