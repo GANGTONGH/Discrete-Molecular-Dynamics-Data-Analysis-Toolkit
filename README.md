@@ -65,7 +65,7 @@ characterizes a structure resembling an amyloid:
 *Q*-value is a generalization of *Q* (the fraction of native contacts), an order parameter in protein folding. Q-value can be used to assess the amyloid fibril forming propensity of a peptide chain or individual amino acid residues (*Q<sub>chain</sub>* and *Q<sub>residue</sub>*, respectively).
 
 <div align="center">
- <img src="https://github.com/GANGTONGH/Discrete-Molecular-Dynamics-Data-Analysis-Toolkit/blob/main/P-value-analysis/Q-value.png" width="600">
+ <img src="https://github.com/GANGTONGH/Discrete-Molecular-Dynamics-Data-Analysis-Toolkit/blob/main/Q-value-analysis/Q-value.png" width="600">
 </div>
 
 *Figure adapted from: https://doi.org/10.1021/acs.jcim.3c00898*
@@ -81,6 +81,10 @@ and
 $`
 Q_{residue} = C_{in\ register}/C_{total}
 `$, where *C<sub>in register</sub>* is the number of in-register contacts formed by the amino acid, and *C<sub>total</sub>* is the total number of contacts formed by this amino acid residue.
+
+Associated publications:
+https://doi.org/10.1021/acs.jcim.4c01471
+https://doi.org/10.1021/acs.jcim.3c00898
 
 <!--
 ## Data visualization
