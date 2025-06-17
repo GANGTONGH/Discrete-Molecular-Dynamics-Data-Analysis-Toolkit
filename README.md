@@ -62,7 +62,7 @@ characterizes a structure resembling an amyloid:
 </div>
 
 ## Q-value analysis
-*Q*-value is a generalization of *Q* (the fraction of native contacts), an order parameter in protein folding. Q-value can be used to assess the amyloid fibril forming propensity of a peptide chain or individual amino acid residues (*Q<sub>chain</sub>* and *Q<sub>residue</sub>*, respectively).
+Q-value is a generalization of *Q* (the fraction of native contacts), an order parameter in protein folding. Q-value can be used to assess the amyloid fibril forming propensity of a peptide chain or individual amino acid residues (*Q<sub>chain</sub>* and *Q<sub>residue</sub>*, respectively). The advantages of this metric include: (1) straightforward and highly interpretable, (2) compared with β-sheet content, which is commonly utilized to evaluate fibrillization, Q-value distinguishes parallel in-register β-sheets from mismatched β-sheets, thus filtering out the off-pathway intermediates and highlighting the unique characteristic of amyloid fibrils.
 
 <div align="center">
  <img src="https://github.com/GANGTONGH/Discrete-Molecular-Dynamics-Data-Analysis-Toolkit/blob/main/Q-value-analysis/Q-value.png" width="600">
