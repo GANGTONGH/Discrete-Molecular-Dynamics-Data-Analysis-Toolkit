@@ -44,7 +44,7 @@ The two types of fibrillar aggregates are:
 In a given  system, the total number of peptide chains is constant. Therefore, a nanocrystal conformation will have more layers but small-sized β-sheets, while a fibril will have fewer layers but large-sized β-sheets. For an aggregation process, the largest aggregate has the most significance.
 *bsh-layers-cutoff.py* can calculate (1) the number of β-sheets layers and (2) the average size of the β-sheets in each layer in the largest aggregate for each trajectory frame.
 
-The advantage of this program include: (1) only considered the clusters with β-sheet contents, (2) give option to exclude small aggregates. These two features effectively eliminate the noise from disordered, non-fibrillar aggregates.
+The advantages of this program include: (1) only considered the clusters with β-sheet contents, (2) give option to exclude small aggregates. These two features effectively eliminate the noise from disordered, non-fibrillar aggregates.
 Usage:
 ```python
 python bsh-layers-cutoff.py -dssp dssp.example -bshClust bshClust.example -o bsh-layers-cutoff4.dat -c 4 -v "[1,4,7,10,13,16,19,22,25,28,31,34,37,40,43,46,49,52,55,58]"
@@ -63,7 +63,9 @@ characterizes a structure resembling an amyloid:
 </div>
 
 ## Q-value analysis
-Q-value is a generalization of *Q* (the fraction of native contacts), an order parameter in protein folding. Q-value can be used to assess the amyloid fibril forming propensity of a peptide chain or individual amino acid residues (*Q<sub>chain</sub>* and *Q<sub>residue</sub>*, respectively). The advantages of this metric include: (1) straightforward and highly interpretable, (2) compared with β-sheet content, which is commonly utilized to evaluate fibrillization, Q-value distinguishes parallel in-register β-sheets from mismatched β-sheets, thus filtering out the off-pathway intermediates and highlighting the unique characteristic of amyloid fibrils.
+Q-value is a generalization of *Q* (the fraction of native contacts), an order parameter in protein folding. Q-value can be used to assess the amyloid fibril forming propensity of a peptide chain or individual amino acid residues (*Q<sub>chain</sub>* and *Q<sub>residue</sub>*, respectively). 
+
+The advantages of this metric include: (1) straightforward and highly interpretable, (2) compared with β-sheet content, which is commonly utilized to evaluate fibrillization, Q-value distinguishes parallel in-register β-sheets from mismatched β-sheets, thus filtering out the off-pathway intermediates and highlighting the unique characteristic of amyloid fibrils.
 
 <div align="center">
  <img src="https://github.com/GANGTONGH/Discrete-Molecular-Dynamics-Data-Analysis-Toolkit/blob/main/Q-value-analysis/Q-value.png" width="600">
