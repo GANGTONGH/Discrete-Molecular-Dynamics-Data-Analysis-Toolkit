@@ -43,7 +43,8 @@ The two types of fibrillar aggregates are:
 
 In a given  system, the total number of peptide chains is constant. Therefore, a nanocrystal conformation will have more layers but small-sized β-sheets, while a fibril will have fewer layers but large-sized β-sheets. For an aggregation process, the largest aggregate has the most significance.
 *bsh-layers-cutoff.py* can calculate (1) the number of β-sheets layers and (2) the average size of the β-sheets in each layer in the largest aggregate for each trajectory frame.
-The advantage of this program are: (1) only considered the clusters with β-sheet contents, (2) give option to exclude small aggregates. These two features effectively eliminate the noise from disordered, non-fibrillar aggregates.
+
+The advantage of this program include: (1) only considered the clusters with β-sheet contents, (2) give option to exclude small aggregates. These two features effectively eliminate the noise from disordered, non-fibrillar aggregates.
 Usage:
 ```python
 python bsh-layers-cutoff.py -dssp dssp.example -bshClust bshClust.example -o bsh-layers-cutoff4.dat -c 4 -v "[1,4,7,10,13,16,19,22,25,28,31,34,37,40,43,46,49,52,55,58]"
