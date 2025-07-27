@@ -129,5 +129,7 @@ The parts of Bri2 BRICHOS with a higher affinity is closer to red (warmer), the 
 
 ## Two-dimensional potential of mean force (2D-PMF) analysis
 Potential of mean force is the effective free energy derived from probability distributions of computational simulations. 
+### Visualization
+### Extract representative snapshots of replica-exchange simulations according to 2D-PMF
 
 ## *(Under construction)*
