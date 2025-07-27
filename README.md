@@ -127,5 +127,7 @@ The parts of Bri2 BRICHOS with a higher affinity is closer to red (warmer), the 
 ## Extract representative snapshots from replica-exchange simulations
 --->
 
+## Two-dimensional potential of mean force (2D-PMF) analysis
+Potential of mean force is the effective free energy derived from probability distributions of computational simulations. 
 
 ## *(Under construction)*
