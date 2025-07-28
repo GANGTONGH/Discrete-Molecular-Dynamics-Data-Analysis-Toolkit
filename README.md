@@ -24,7 +24,7 @@ Output:
 
 ### Extract representative structures of replica-exchange simulations according to 2D-PMF
 
-*rep-str.sh* can extract the conformations corresponding to a given region on 2D-PMF, for example, the box α on the 2D-PMF shown below:
+[*rep-str.sh*](https://github.com/GANGTONGH/Discrete-Molecular-Dynamics-Data-Analysis-Toolkit/blob/main/Representative%20Structure/rep-str.sh) can extract the conformations corresponding to a given region on 2D-PMF, for example, the box α on the 2D-PMF shown below:
 
 <div align="center">
  <img src="https://github.com/GANGTONGH/Discrete-Molecular-Dynamics-Data-Analysis-Toolkit/blob/main/Representative%20Structure/pmf-rep-str.png" width="400">
