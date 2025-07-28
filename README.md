@@ -124,7 +124,7 @@ $`
 Q_{residue} = C_{in\ register}/C_{total}
 `$, where *C<sub>in register</sub>* is the number of in-register contacts formed by the amino acid in question, and *C<sub>total</sub>* is the total number of contacts formed by this amino acid residue.
 
-Associated publications: https://doi.org/10.1021/acs.jcim.4c01471, https://doi.org/10.1021/acs.jcim.3c00898
+Application examples: https://doi.org/10.1021/acs.jcim.4c01471, https://doi.org/10.1021/acs.jcim.3c00898
 
 <!--
 ## Data visualization
