@@ -10,6 +10,16 @@ The utility programs in this repository are designed to analyze large simulation
   * Numpy (https://numpy.org)
 * Awk (https://github.com/onetrueawk/awk)
 
+## Two-dimensional potential of mean force (2D-PMF) analysis
+Potential of mean force is the effective free energy derived from probability distributions of computational simulations. 
+### Visualization
+### Extract representative snapshots of replica-exchange simulations according to 2D-PMF
+The basins on 2D-PMF in replica-exchange simulations corresponds to the highly populated intermediate states, while the ridges/peaks correspond to the sparsely populated transitional states ([see details](https://www.chem.ucla.edu/~harding/IGOC/I/intermediate.html)). The conformations of these states provide mechanistic insights into the pathway of chemical and biological processes.
+
+*rep-str.sh* can extract the conformations corresponding to a given region on 2D-PMF. For example, the square on the 2D-PMF shown below:
+
+## *(Under construction)*
+
 ## Secondary structure contents
 *ssCont.awk* can rapidly calculate the contents of the average secondary structures of the entire protein system in a DMD trajectory.
 This script takes the standard DSSP output from DMD as the input file.
@@ -127,9 +137,4 @@ The parts of Bri2 BRICHOS with a higher affinity is closer to red (warmer), the 
 ## Extract representative snapshots from replica-exchange simulations
 --->
 
-## Two-dimensional potential of mean force (2D-PMF) analysis
-Potential of mean force is the effective free energy derived from probability distributions of computational simulations. 
-### Visualization
-### Extract representative snapshots of replica-exchange simulations according to 2D-PMF
 
-## *(Under construction)*
