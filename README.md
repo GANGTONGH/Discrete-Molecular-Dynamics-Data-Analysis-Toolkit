@@ -14,8 +14,12 @@ The utility programs in this repository are designed to analyze large simulation
 Potential of mean force is the effective free energy derived from probability distributions of computational simulations. 
 ### Visualization
 
+[Example](https://github.com/GANGTONGH/Discrete-Molecular-Dynamics-Data-Analysis-Toolkit/blob/main/Potential%20of%20Mean%20Force/pmf_plot.ipynb) 
+
+Output:
+
 <div align="center">
- <img src="https://github.com/GANGTONGH/Discrete-Molecular-Dynamics-Data-Analysis-Toolkit/blob/main/Potential%20of%20Mean%20Force/pmf.eps" width="400">
+ <img src="https://github.com/GANGTONGH/Discrete-Molecular-Dynamics-Data-Analysis-Toolkit/blob/main/Potential%20of%20Mean%20Force/pmf.png" width="400">
 </div>
 
 ### Extract representative structures of replica-exchange simulations according to 2D-PMF
