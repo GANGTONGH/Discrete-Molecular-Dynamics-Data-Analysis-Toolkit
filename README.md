@@ -42,8 +42,8 @@ The usage of rep-str.sh:
 * sampling_interval: the algorithm will search the simulation trajectory every *sampling_interval* steps for the conformations that fall into the box
 * in_pdb: the path to the input pdb of the DMD simulation
 * output_commands:
-** 0 - output (with order) the (1) time range, (2) replica index, (3) time step, (4) padded replica index into a collum file.
-** 1 - output [Medusa](https://www.moleculesinaction.com/services.html) commands that extracts the corresponding structures.
+ * 0 - output (with order) the (1) time range, (2) replica index, (3) time step, (4) padded replica index into a collum file.
+ * 1 - output [Medusa](https://www.moleculesinaction.com/services.html) commands that extracts the corresponding structures.
 
 In the example above, the code for showing where the conformations the fall into box α are located in the simulation trajectories would be:
 ```
