@@ -13,12 +13,31 @@ The utility programs in this repository are designed to analyze large simulation
 ## Two-dimensional potential of mean force (2D-PMF) analysis
 Potential of mean force is the effective free energy derived from probability distributions of computational simulations. 
 ### Visualization
-### Extract representative snapshots of replica-exchange simulations according to 2D-PMF
+### Extract representative structures of replica-exchange simulations according to 2D-PMF
 The basins on 2D-PMF in replica-exchange simulations corresponds to the highly populated intermediate states, while the ridges/peaks correspond to the sparsely populated transitional states ([see details](https://www.chem.ucla.edu/~harding/IGOC/I/intermediate.html)). The conformations of these states provide mechanistic insights into the pathway of chemical and biological processes.
 
-*rep-str.sh* can extract the conformations corresponding to a given region on 2D-PMF. For example, the square on the 2D-PMF shown below:
+*rep-str.sh* can extract the conformations corresponding to a given region on 2D-PMF, for example, the box α on the 2D-PMF shown below:
 
-## *(Under construction)*
+<div align="center">
+ <img src="https://github.com/GANGTONGH/Discrete-Molecular-Dynamics-Data-Analysis-Toolkit/blob/main/Representative%20Structure/pmf-rep-str.png" width="400">
+</div>
+
+The region can be defined by its centroid (0.05, 14), and the half-width along the x and y directions: 0.05 and 1, respectively.
+
+The usage of rep-str.sh:
+```
+./rep-str.sh center_x tolerance_x center_y tolerance_y sampling_interval in_pdb output_commands
+```
+* center_x: the x-coordinate of the centroid
+* tolerance_x: the tolerance or half-width of the box defining the 2D-PMF region of interest
+* sampling_interval: the algorithm will search the simulation trajectory every *sampling_interval* steps for the conformations that fall into the box
+* in_pdb: the path to the input pdb of the DMD simulation
+* output_commands: 0 - output (with order) the (1) time range, (2) replica index, (3) time step, (4) padded replica index into a collum file; 1 - output [Medusa](https://www.moleculesinaction.com/services.html) commands that extracts the corresponding structures.
+
+In the example above, the code for showing where the conformations the fall into box α are located in the simulation trajectories would be:
+```
+./rep-str.sh 0.05 0.05 14 1 100 input.pdb 0
+```
 
 ## Secondary structure contents
 *ssCont.awk* can rapidly calculate the contents of the average secondary structures of the entire protein system in a DMD trajectory.
