@@ -50,7 +50,7 @@ In the example above, the code for showing where the conformations the fall into
 ```
 
 ## Secondary structure contents
-*ssCont.awk* can rapidly calculate the contents of the average secondary structures of the entire protein system in a DMD trajectory.
+[*ssCont.awk*](https://github.com/GANGTONGH/Discrete-Molecular-Dynamics-Data-Analysis-Toolkit/blob/main/Secondary%20structure%20content/ssCont.awk) can rapidly calculate the contents of the average secondary structures of the entire protein system in a DMD trajectory.
 This script takes the standard DSSP output from DMD as the input file.
 Usage:
 ```bash
@@ -66,7 +66,7 @@ The columns from left to right contains the contents of the secondary structure 
 * Bend
 * Random coil
 
-If you need more detailed information of a specific peptide chain, *ssResCont.py* will calculate the secondary structure propensity of each residue.
+If you need more detailed information of a specific peptide chain, [*ssResCont.py*](https://github.com/GANGTONGH/Discrete-Molecular-Dynamics-Data-Analysis-Toolkit/blob/main/Secondary%20structure%20content/ssResCont.py) will calculate the secondary structure propensity of each residue.
 
 Usage:
 ```python
@@ -81,7 +81,7 @@ The two types of fibrillar aggregates are:
 * Nanocrystals: have a large number of layers. [Example](https://www.science.org/doi/10.1126/science.aal5005#F2)
 
 In a given  system, the total number of peptide chains is constant. Therefore, a nanocrystal conformation will have more layers but small-sized β-sheets, while a fibril will have fewer layers but large-sized β-sheets. For an aggregation process, the largest aggregate has the most significance.
-*bsh-layers-cutoff.py* can calculate (1) the number of β-sheets layers and (2) the average size of the β-sheets in each layer in the largest aggregate for each trajectory frame.
+[*bsh-layers-cutoff.py*](https://github.com/GANGTONGH/Discrete-Molecular-Dynamics-Data-Analysis-Toolkit/blob/main/Fibrillar%20structure%20analysis/bsh-layers-cutoff.py) can calculate (1) the number of β-sheets layers and (2) the average size of the β-sheets in each layer in the largest aggregate for each trajectory frame.
 
 The advantages of this program include: (1) only considered the clusters with β-sheet contents, (2) give option to exclude small aggregates. These two features effectively eliminate the noise from disordered, non-fibrillar aggregates.
 Usage:
