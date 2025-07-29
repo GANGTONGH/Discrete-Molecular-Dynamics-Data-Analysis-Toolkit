@@ -135,12 +135,13 @@ Application examples: https://doi.org/10.1021/acs.jcim.4c01471, https://doi.org/
 ## Protein structure visualization
 For structure visualization, [PyMOL](https://www.pymol.org/) is required.
 ### Coloring
-The following tools generate an easy-to-read heat map with custom parameter, where the value of the parameter is mapped onto the protein surface. Each residue is colored according to the parameter value from maximum (red) to minimum (blue): 
+The following tools and commands generate an easy-to-read heat map with custom parameter, where the value of the parameter is mapped onto the protein surface. Each residue is colored according to the parameter value from maximum (red) to minimum (blue): 
 <div align="center">
  <img src="https://github.com/GANGTONGH/Discrete-Molecular-Dynamics-Data-Analysis-Toolkit/blob/224960143076c3c6232b4c74bf5c56838489fc69/Protein%20structure%20coloring/colorbar.png" width="200">
 </div>
 
-In this example, we will map the affinity with a small molecule onto the BRICHOS protein structure. 
+In this example, we will map the affinity of each amino acid in the Bri2 BRICHOS protein with a small molecule onto the 3D protein structure (PDB). 
+[*color.sh*](https://github.com/GANGTONGH/Discrete-Molecular-Dynamics-Data-Analysis-Toolkit/blob/main/Protein%20structure%20coloring/color.sh) adds the color information into the PDB file.
 The following inputs are required:
 * *brichos_template.pdb*: the protein structure to be colored
 * *contact_prob_per_residue.dat*: the corredponding value of the parameter on each residue, arranged into a single column.
