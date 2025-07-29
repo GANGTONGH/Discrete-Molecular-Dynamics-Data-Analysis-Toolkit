@@ -141,6 +141,7 @@ The following tools and commands generate an easy-to-read heat map with custom p
 </div>
 
 In this example, we will map the affinity of each amino acid in the Bri2 BRICHOS protein with a small molecule onto the 3D protein structure (PDB). 
+
 [*color.sh*](https://github.com/GANGTONGH/Discrete-Molecular-Dynamics-Data-Analysis-Toolkit/blob/main/Protein%20structure%20coloring/color.sh) adds the color information into the PDB file.
 The following inputs are required:
 * *brichos_template.pdb*: the protein structure to be colored
