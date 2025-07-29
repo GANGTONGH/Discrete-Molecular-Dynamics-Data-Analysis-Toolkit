@@ -14,7 +14,7 @@ Potential of mean force is the effective free energy derived from probability di
 
 ### Visualization
 
-[Example](https://github.com/GANGTONGH/Discrete-Molecular-Dynamics-Data-Analysis-Toolkit/blob/main/Potential%20of%20Mean%20Force/pmf_plot.ipynb) 
+[*pmf_plot.ipynb*](https://github.com/GANGTONGH/Discrete-Molecular-Dynamics-Data-Analysis-Toolkit/blob/main/Potential%20of%20Mean%20Force/pmf_plot.ipynb) visualizes 2D-PMF in the style of a contour plot with a rainbow color scheme.
 
 Output:
 
