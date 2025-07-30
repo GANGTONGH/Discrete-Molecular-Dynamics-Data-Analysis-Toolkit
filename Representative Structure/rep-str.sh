@@ -29,19 +29,16 @@ do
 		then
 			for frame in ${common_list[@]}
 			do
+   
 				# SAMPLING INTERVAL and TEMPERATURE filter
-
-				#temp=$(awk -v temp_fr=$(( $frame / 10 )) -v rep_col=$(( $i_rep + 2 )) ' {if (NR == temp_fr+2) print $rep_col}' $source_dir/${t_period}/RX_TEMP.out 2>/dev/null)
-				#if [[ $(($frame % $sampling_interval)) == 0 && ( $(echo "$temp == 0.590" | bc -l) || $(echo "$temp == 0.610" | bc -l) ) ]]; then echo $t_period $i_rep $frame `printf "%03d" $i_rep`; fi
-
 				temp=$(awk -v temp_fr=$(( $frame / 10 )) -v rep_col=$(( $i_rep + 2 )) 'NR == temp_fr+2 {print $rep_col}' "$source_dir/${t_period}/RX_TEMP.out" 2>/dev/null)
-
 				if [[ -n "$temp" && "$temp" =~ ^[0-9]*\.?[0-9]+$ ]]; then
 					if [[ $(($frame % $sampling_interval)) == 0 && \
 						( $(echo "$temp == 0.590" | bc -l) -eq 1 || $(echo "$temp == 0.610" | bc -l) -eq 1 ) ]]; then
 						echo $t_period $i_rep $frame `printf "%03d" $i_rep`
 					fi
 				fi
+    
 			done
 		fi
 	done
