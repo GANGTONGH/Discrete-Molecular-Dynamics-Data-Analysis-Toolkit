@@ -66,7 +66,8 @@ The columns from left to right contains the contents of the secondary structure 
 * Bend
 * Random coil
 
-If you need more detailed information of a specific peptide chain, [*ssResCont.py*](https://github.com/GANGTONGH/Discrete-Molecular-Dynamics-Data-Analysis-Toolkit/blob/main/Secondary%20structure%20content/ssResCont.py) will calculate the secondary structure propensity of each residue.
+## Residue-wise secondary structure contents
+[*ssResCont.py*](https://github.com/GANGTONGH/Discrete-Molecular-Dynamics-Data-Analysis-Toolkit/blob/main/Secondary%20structure%20content/ssResCont.py) will calculate the secondary structure propensity of each residue in the system or in a specific peptide chain.
 
 Usage:
 ```python
