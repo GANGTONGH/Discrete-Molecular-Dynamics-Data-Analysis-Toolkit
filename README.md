@@ -81,7 +81,7 @@ The two types of fibrillar aggregates are:
 * Amyloids: have a small number of β-sheet layers (typically close to 2). [Example](https://www.science.org/doi/10.1126/science.aao2825#F1)
 * Nanocrystals: have a large number of layers. [Example](https://www.science.org/doi/10.1126/science.aal5005#F2)
 
-In a given  system, the total number of peptide chains is constant. Therefore, a nanocrystal conformation will have more layers but small-sized β-sheets, while a fibril will have fewer layers but large-sized β-sheets. For an aggregation process, the largest aggregate has the most significance.
+In a given  system, the total number of peptide chains is constant. Therefore, a nanocrystal conformation will have more layers but short β-sheets, while a fibril will have fewer layers but long β-sheets. For an aggregation process, the largest aggregate has the most significance.
 [*bsh-layers-cutoff.py*](https://github.com/GANGTONGH/Discrete-Molecular-Dynamics-Data-Analysis-Toolkit/blob/main/Fibrillar%20structure%20analysis/bsh-layers-cutoff.py) can calculate (1) the number of β-sheets layers and (2) the average size of the β-sheets in each layer in the largest aggregate for each trajectory frame.
 
 The advantages of this program include: (1) only considered the clusters with β-sheet contents, (2) give option to exclude small aggregates. These two features effectively eliminate the noise from disordered, non-fibrillar aggregates.
