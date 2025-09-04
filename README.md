@@ -85,6 +85,7 @@ In a given  system, the total number of peptide chains is constant. Therefore, a
 [*bsh-layers-cutoff.py*](https://github.com/GANGTONGH/Discrete-Molecular-Dynamics-Data-Analysis-Toolkit/blob/main/Fibrillar%20structure%20analysis/bsh-layers-cutoff.py) can calculate (1) the number of β-sheets layers and (2) the average size of the β-sheets in each layer in the largest aggregate for each trajectory frame.
 
 The advantages of this program include: (1) only considered the clusters with β-sheet contents, (2) give option to exclude small aggregates. These two features effectively eliminate the noise from disordered, non-fibrillar aggregates.
+
 Usage:
 ```python
 python bsh-layers-cutoff.py -dssp dssp.example -bshClust bshClust.example -o bsh-layers-cutoff4.dat -c 4 -v "[1,4,7,10,13,16,19,22,25,28,31,34,37,40,43,46,49,52,55,58]"
