@@ -76,7 +76,7 @@ python ssResCont.py -i in_dssp.example -o out_ssrescont.dat
 Similarly, the columns from left to right contains the contents of the secondary structure types as described above. Rows from top to bottom corresponds to the amino acid residues in the system as ordered in the starting PDB structure of the simulation.
 
 ## Fibrillar aggregate morphology analysis
-We can differentiated protein aggregates according to their respective morphologies. The parameters that characterize the morphology are: (1) number of layers and (2) the size of each layer. 
+We can differentiate protein aggregates according to their respective morphologies. The parameters that characterize the morphology are: (1) number of layers and (2) the size of each layer. 
 The two types of fibrillar aggregates are: 
 * Amyloids: have a small number of β-sheet layers (typically close to 2). [Example](https://www.science.org/doi/10.1126/science.aao2825#F1)
 * Nanocrystals: have a large number of layers. [Example](https://www.science.org/doi/10.1126/science.aal5005#F2)
